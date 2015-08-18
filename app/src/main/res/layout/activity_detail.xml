@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Notice the Share Action Provider is thinner than expected (width is incorrect) on 2.x.\n
+        On Android 2.1 mdpi devices, the share icon even gets truncated.\n
+        Also notice the up arrow and share icon are white on white on Android 2.1 devices instead of dark grey on 2.3 and up.\n
+        And no, the physical back button doesn't work here either."
+        />
+
+</LinearLayout>
